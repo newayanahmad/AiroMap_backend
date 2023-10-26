@@ -1,8 +1,11 @@
 {
-  "name": "AiroMap_backend",
+  "name": "airomap_backend",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
