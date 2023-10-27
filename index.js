@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
 
+config({ path: __dirname + '/.env.local' })
 config()
 
 const app = express();
